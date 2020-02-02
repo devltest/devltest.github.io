@@ -1,27 +1,26 @@
 # Site settings
-title: Another Blog
-url: "https://devltest.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
+title: My thoughts
+url: "https://devltest.github.io"
+baseurl: ""
 #timezone: Asia/Chongqing
 description: >
-  One or more sentences introducing this blog.
+  This is my blog at which I
+  throw my thoughts
 
 # Your information
 email: your_email@example.com
-author: your_name
+author: hello world
 avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
 profile: One sentence introducing yourself.
-#twitter_username: twitter_username
-#github_username:  github_username
+twitter_username: twitter_username
+github_username:  devltest
 profile_links:
   Email: "mailto:your_email@example.com"
-  GitHub: "https://github.com/laobubu/jekyll-theme-EasyBook"
+  GitHub: "https://github.com/devltest"
   # You can add more profile links above, or edit _includes/sidebar.html 
 
 # Comment Service (Disqus or 多说)
-#  choose one and un-comment the line to active it
 #disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
-#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
 excerpt_separator: <!--more-->
 
@@ -29,7 +28,6 @@ header:
   links:             # Links on the header. Link to in-site page with a slash as prefix
     About: /about/
     Category: /category/
-    Donate: https://laobubu.net/donate.html
 
 permalink: /archivers/:title
 plugins:
