@@ -18,6 +18,13 @@ Commands:
     Privileges: User
     MitreID: T1127
     OperatingSystem: Windows vista, Windows 7, Windows 8, Windows 8.1, Windows 10, Windows 11
+  - Command: csc -target:library Test.cs
+    Description: Test description
+    Usecase: Compile attacker code on system. Bypass defensive counter measures.
+    Category: Compile
+    Privileges: User
+    MitreID: T1127
+    OperatingSystem: Windows vista, Windows 7, Windows 8, Windows 8.1, Windows 10, Windows 11
 Full_Path:
   - Path: C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe
   - Path: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Csc.exe

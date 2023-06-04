@@ -11,6 +11,13 @@ Commands:
     Privileges: Local Admin
     MitreID: T1053.002
     OperatingSystem: Windows 7 or older
+  - Command: C:\Windows\System32\at.exe 12:34 /interactive /every:m,t,w,th,f,s,su C:\Windows\System32\revshell.exe
+    Description: TEST
+    Usecase: TEST Usecase
+    Category: Execute
+    Privileges: Local Admin
+    MitreID: T1053.002
+    OperatingSystem: Windows 7 or older
 Full_Path:
   - Path: C:\WINDOWS\System32\At.exe
   - Path: C:\WINDOWS\SysWOW64\At.exe
