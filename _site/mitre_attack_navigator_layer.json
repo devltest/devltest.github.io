@@ -1,0 +1,177 @@
+
+
+
+{
+    "name": "The LOLBAS Project",
+    "versions": {"attack": "11", "navigator": "4.6.4", "layer": "4.3"},
+    "domain": "enterprise-attack",
+    "description": "ATT&CK alignment of the LOLBAS project, see https://lolbas-project.github.io/.",
+    "filters": {"platforms": ["Windows"]},
+    "layout": {
+        "layout": "flat",
+        "aggregateFunction": "average",
+        "showID": false,
+        "showName": true,
+        "showAggregateScores": false,
+        "countUnscored": false
+    },
+    "techniques": [
+        
+        
+            {"techniqueID": "T1003", "score": 5, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1003.001", "score": 8, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1003.002", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1003.003", "score": 3, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1027", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1036", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1040", "score": 2, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1048.003", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1053.002", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1053.005", "score": 2, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1055", "score": 2, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1059", "score": 3, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1059.003", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1070", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1078", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1105", "score": 47, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1113", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1127", "score": 40, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1127.001", "score": 4, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1140", "score": 2, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1185", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1187", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1202", "score": 28, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1216", "score": 14, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1216.001", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1218", "score": 80, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1218.001", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1218.002", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1218.003", "score": 2, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1218.004", "score": 2, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1218.005", "score": 4, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1218.007", "score": 5, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1218.008", "score": 3, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1218.009", "score": 4, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1218.010", "score": 4, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1218.011", "score": 38, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1218.012", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1218.013", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1218.014", "score": 2, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1220", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1485", "score": 2, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1543.003", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1546.007", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1547", "score": 2, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1548.002", "score": 3, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1552.001", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1562.001", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1564", "score": 1, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1564.004", "score": 31, "showSubtechniques": true},
+            
+        
+            {"techniqueID": "T1567", "score": 2, "showSubtechniques": true}
+            
+        
+    ],
+    "gradient": {
+        "colors": ["#cdf0fc", "#0d89b3"],
+        "minValue": 0,
+        "maxValue": 80
+    }
+}
